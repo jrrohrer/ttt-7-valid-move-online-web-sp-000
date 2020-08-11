@@ -2,7 +2,7 @@
 def valid_move?(array, index)
   if position_taken?(array, index) == false
     return true
-  else if index > 8
+  else if index > 9
     return nil
   else
     return false

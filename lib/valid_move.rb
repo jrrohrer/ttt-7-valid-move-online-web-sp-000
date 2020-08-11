@@ -2,9 +2,9 @@
 def valid_move?(array, index)
   if index > 8
     return false
-  else if position_taken?(array, index) == false 
+  else if position_taken?(array, index) == false
     return true
-  else 
+  else
     return false
   end
 end

@@ -5,7 +5,7 @@ def valid_move?(array, index)
   else if index > 8
     return false
   else
-    return false
+    return !true
   end
   end
 end

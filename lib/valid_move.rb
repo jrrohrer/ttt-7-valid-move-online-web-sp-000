@@ -2,8 +2,11 @@
 def valid_move?(array, index)
   if position_taken?(array, index) == false
     return true
+  else if index > 8
+    return false
   else
     return false
+  end
   end
 end
 # Decides whether a position on the board is already occupided

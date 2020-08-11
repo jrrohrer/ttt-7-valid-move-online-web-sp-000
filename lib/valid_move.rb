@@ -1,7 +1,9 @@
 # Decides whether a user's move is valid
 def valid_move?(array, index)
-  if position_taken?() == false
+  if position_taken?(array, index) == false
     return true
+  else
+    return false
   end
 end
 # Decides whether a position on the board is already occupided

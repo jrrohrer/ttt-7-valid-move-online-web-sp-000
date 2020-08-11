@@ -1,18 +1,13 @@
-# code your #valid_move? method here
-def valid_move?(board, index)
-  if position_taken? == false
-    return false
-  else if position_taken? == true
-    return true
-  end
-end
-end
+# Decides whether a user's move is valid
+def valid_move?(array, index)
 
-def position_taken?(board, index)
-  if board[index] == " " || board[index] ==""
+end
+# Decides whether a position on the board is already occupided
+def position_taken?(array, index)
+  if array[index] == " " || array[index] == "" || array[index] == nil
     return false
-  else if board[index] == "X" || board[index] == "O"
+  else if array[index] == "X" || array[index] == "O"
     return true
   end
-end
+  end
 end

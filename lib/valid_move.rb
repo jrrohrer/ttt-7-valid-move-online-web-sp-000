@@ -9,3 +9,4 @@ def position_taken?(array, index)
     return true
   end
 end
+end
